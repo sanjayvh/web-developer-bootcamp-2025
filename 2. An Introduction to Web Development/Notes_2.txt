@@ -1,0 +1,57 @@
+An Introduction to Web Development
+----------------------------------
+
+Internet
+- A global network of networks
+- Global network of interconnected computers via TCP/IP.
+- Its just a bunch of connected computers
+- Internet is the infrastucture that carries:
+	- Email
+	- Web
+	- File Sharing
+	- Online Gaming
+	- Streaming services etc
+	
+Intro to the Web
+----------------
+
+Web
+- The World Wide Web is an information system where documents and other
+	resources are available over the internet.
+- Docs are transferred via HTTP(Hyter Text Transfer Protocol)
+- Resources or docs are identified via URLs(Uniform Resource Locator)
+
+Web server
+- A computer that can satify reqs on the web.
+- server is also used to refer to the s/w running on the computer.
+
+Client
+- The computer that is requesting a resource from a server
+
+The Request/Response Cycle
+--------------------------
+
+- The user sends a request for a resource to a server
+- The server processes it and gives the response.
+- The browser takes the instructions for the page/resource and runs it to build the page.
+- To see the instructions, right click on any page in internet and select View page source
+- View page source gives the underlying page, the content that results in the web page.
+- For example, when the user searches in google, a HTTP req is sent to google server.
+	The server build the page/resource and sends HTTP response which contains HTML CSS and JS code.
+	The browser gets the response and renders the page based on code it received.
+	
+What do HTML/CSS/JS do?
+-----------------------
+
+HTML 
+- The content of the page is HTML
+- Example: Nouns
+
+CSS
+- Describes the content
+- Example: Adjectives
+
+JS
+- the actions done behind is JS
+- Example: Verbs
+
