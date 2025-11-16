@@ -109,3 +109,21 @@ Levels of HTML Heading Tags
 		
 Coding exercise-1
 - Refer exercise-1.html
+
+<a href="#the_inspector_dom_explorer_and_css_editor" aria-current="true">The Inspector: DOM explorer and CSS editor</a>
+<a href="#the_inspector_dom_explorer_and_css_editor" aria-current="true">The Inspector: DOM explorer and CSS editor</a>
+#content > aside > nav > ul > li:nth-child(2) > a
+document.querySelector("#content > aside > nav > ul > li:nth-child(2) > a")
+//*[@id="content"]/aside/nav/ul/li[2]/a
+/html/body/div[2]/div/main/aside/nav/ul/li[2]/a
+
+Introduction to the Chrome Inspector
+- Refer this: https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_are_browser_developer_tools
+
+HTML Boilerplate
+- HTML Skeleton
+	- https://www.w3schools.com/webdev/wd_html.asp
+	- Doubt
+		- What is I don't define <!DOCTYPE html>? will the browser fail to process the html file?
+		- What if lang="en" is missing in <html lang="en">?
+		- what other charsets are available to set?
